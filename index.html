@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css" />
+</head>
+
+<body>
+    <div class="main_1">
+        <div class="caja">
+            <span id="F1" class="fila_1">ABCDEFGHIJKLMNOPQRSTUVWXYZ</span>
+            <span id="F2" class="fila_1"><s>abcdefghijklmnopqrstuvwxyz</s></span>
+            <span id="F3" class="fila_1"><s>1234567890</s></span>
+            <span id="F4" class="fila_1"><s>~!@#$%^&*()_+/</s></span>
+        </div>
+    </div>
+                
+    <div class="main">
+        <div class="caja">
+            <span id="Resultado">Testing</span>
+            <div class="fila">
+                <div class="izquierda">
+                    Longitud de contraseña
+                </div>
+                <div class="derecha">
+                    <input type="range" name="" id="Caracteres" max="30" min="2" value="10" />
+                </div>
+            </div>
+            <div class="fila">
+                <label for="mayuscula">
+                    <div class="izquierda">
+                       Contiene Mayusculas
+                    </div>
+                </label>
+                <div class="derecha">
+                    <input type="checkbox" name="" id="mayuscula" checked/>
+                </div>
+            </div>
+            <div class="fila">
+                <label for="minuscula">
+                    <div class="izquierda">
+                        Contiene Minusculas
+                    </div>
+                </label>
+                <div class="derecha">
+                    <input type="checkbox" name="" id="minuscula" />
+                </div>
+            </div>
+            <div class="fila">
+                <label for="numero">
+                    <div class="izquierda">
+                        Contiene Numeros
+                    </div>
+                </label>
+                <div class="derecha">
+                    <input type="checkbox" name="" id="numero" />
+                </div>
+            </div>
+            <div class="fila">
+                <label for="simbolo">
+                    <div class="izquierda">
+                        Contiene Simbolos
+                    </div>
+                </label>
+                <div class="derecha">
+                    <input type="checkbox" name="" id="simbolo" />
+                </div>
+            </div>
+            <div class="fila">
+                <button id="boton">
+                    Generate
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="js.js"></script>
+</body>
+
+</html>
